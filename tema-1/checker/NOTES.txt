@@ -1,0 +1,10 @@
+Salut,
+
+Testele merg rulate si independent, daca vrei sa rulezi primul test, router_arp_reply, ar trebui sa faci urmatoarele:
+1. Te uiti in tests.py la final si identifici testul: "router_arp_reply": Test(0, 0, router_arp_reply_a, router_arp_reply_p)"
+Obs: In cazul testelor, primele 2 argumente reprezinta host-ul activ(care trimite pachete) si pasiv (care asculta).
+2. Repornesti routerul: killall router && ./router
+3. Rulezi checker-ul pe host-ul pasiv(In cazul acestui test host-ul pasv esti idem cu cel activ):
+host 0: checker/checker.py --passive --host=0 --testname=router_arp_reply
+4. Rulezi checker-ul pe host-ul activ
+host 0: checker/checker.py --active --host=0 --testname=router_arp_reply

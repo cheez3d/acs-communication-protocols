@@ -1,0 +1,12 @@
+/.debug
+/server
+/subscriber
+/vmchecker.zip
+
+/.vscode/settings.json
+
+/checker/**/__pycache__/
+
+/obj/
+
+/others/

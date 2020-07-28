@@ -1,0 +1,11 @@
+/.debug
+/router
+/vmchecker.zip
+
+/.vscode/settings.json
+
+/checker/__pycache__/
+/checker/hosts_output
+/checker/router_*.txt
+
+/obj/
