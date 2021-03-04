@@ -17,11 +17,11 @@
 [dns]: https://en.wikipedia.org/wiki/Domain_Name_System
 
 # Comunicarea cu un [API RESTful][rest]
-Acest subdirector conține **Tema 3** din cadrul cursului _Protocoale de comunicație_ ce presupune implementarea unui client pentru comunicarea cu un [API RESTful][rest].
-Programul este împărțit în mai multe componente/fișiere, fiecare din acestea rezolvând o anumită problemă.
+Acest subdirector conține **Tema 3** din cadrul cursului _Protocoale de comunicație_ ce presupune implementarea unui client pentru comunicarea cu un [API RESTful][rest]. Programul este împărțit în mai multe componente/fișiere, fiecare din acestea rezolvând o anumită problemă.
 
 ## Structura codului sursă
-În fișierele antet, aflate în [directorul include][include], se află declarațiile/definițiile de constante, structuri, funcții ce sunt folosite predilect în cadrul fișierelor sursă. Unde este cazul, există și comentarii ce însoțesc declarațiile/definițiile menite să ușureze înțelegerea scopului acestora.
+În fișierele antet, aflate în [directorul include][include], se află declarațiile/definițiile de constante, structuri, funcții ce sunt folosite în cadrul fișierelor sursă. Unde este cazul, există și comentarii ce însoțesc declarațiile/definițiile menite să ușureze înțelegerea scopului acestora.
+
 În fișierele sursă, aflate în [directorul src][src], se află implementările, fiind comentate părțile mai importante din logica programului.
 
 ## Interfața cu utilizatorul ([main.cpp][main-cpp])

@@ -3,7 +3,7 @@
 [tema-3]: tema-3/
 
 # Protocoale de comunicație
-Aici se află rezolvarea temelor din cadrul cursului de _Protocoale de comunicație_.
+Aici se află rezolvarea temelor din cadrul cursului _Protocoale de comunicație_.
 
 | Temă | Titlu | Rezolvare |
 | - | - | - |
